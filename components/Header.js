@@ -23,3 +23,7 @@ const Title = styled.div`
     font-weight: 600;
     flex: 1;
 `
+
+const ButtonsContainer = styled.div`
+    display: flex;
+`
