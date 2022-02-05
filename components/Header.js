@@ -1,10 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 
 const Header = () => {
   return (
-    <div>
+    <Wrapper>
+        <Button style={{ backgroundColor: '#3773f5', color: '#000000'} }>
+            Buy / Sell
+        </Button>
 
-    </div>
+        <Button>Send / Receive</Button>
+    </Wrapper>
   )
 }
 
