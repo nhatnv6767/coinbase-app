@@ -5,7 +5,9 @@ import styled from 'styled-components'
 const Dashboard = ({address}) => {
   return (
     <Wrapper>
-      <Header/>
+      <MainContainer>
+        <Header/>
+      </MainContainer>
     </Wrapper>
   )
 }
