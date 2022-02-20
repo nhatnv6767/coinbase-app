@@ -44,7 +44,9 @@ const Coin = ({coin}) => {
           {coin.allocation}%
         </div>
 
-
+        <div style={{flex: 0}}>
+          <BsThreeDotsVertical/>
+        </div>
       </div>
   </Wrapper>
   )
