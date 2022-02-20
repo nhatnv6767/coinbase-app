@@ -3,10 +3,11 @@ import Portfolio from './Portfolio'
 import styled from 'styled-components'
 
 const Main = () => {
-  return
-  <Wrapper>
-    <Portfolio/>
-  </Wrapper>
+  return (
+    <Wrapper>
+      <Portfolio/>
+    </Wrapper>
+  )
 }
 
 export default Main
