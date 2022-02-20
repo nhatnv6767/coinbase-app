@@ -2,8 +2,13 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div>
-    </div>
+    <Wrapper>
+      <LogoContainer>
+        <Logo>
+          <Image src={CoinbaseLogo} alt='Coinbase Logo'/>
+        </Logo>
+      </LogoContainer>
+    </Wrapper>
   )
 }
 
