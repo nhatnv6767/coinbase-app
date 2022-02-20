@@ -4,7 +4,7 @@ import Portfolio from './Portfolio'
 const Main = () => {
   return
   <Wrapper>
-
+    <Portfolio/>
   </Wrapper>
 }
 
