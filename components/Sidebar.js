@@ -1,4 +1,5 @@
 import React from 'react'
+import CoinbaseLogo from '../assets/cb-logo.png'
 
 const Sidebar = () => {
   return (
