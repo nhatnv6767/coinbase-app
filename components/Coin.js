@@ -4,10 +4,18 @@ import Image from 'next/image'
 
 
 const Coin = () => {
-  return (
+  return
+  <Wrapper>
     <div>
+      <div style={{flex: 3}}>
+        <NameCol>
+          <CoinIcon>
+            <Image src={coin.logo alt={coin.name}} />
+          </CoinIcon>
+        </NameCol>
+      </div>
     </div>
-  )
+  </Wrapper>
 }
 
 export default Coin
