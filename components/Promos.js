@@ -2,8 +2,16 @@ import React from 'react'
 
 const Promos = () => {
   return (
-    <div>
-    </div>
+    <Wrapper>
+      <OfferCard>
+        <Title>Yield earned</Title>
+      </OfferCard>
+
+      <OfferCard>
+        <Title>Learn and Earn</Title>
+      </OfferCard>
+    </Wrapper>
+
   )
 }
 
