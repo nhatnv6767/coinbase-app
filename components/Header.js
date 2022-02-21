@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Header = () => {
+const Header = ({walletAddress, connecWallet}) => {
   return (
     <Wrapper>
       <Title>Assets</Title>
@@ -10,7 +10,7 @@ const Header = () => {
         <WalletLink>
           <WalletLinkTitle>Wallet Connected</WalletLinkTitle>
           <WalletAddress>
-            {walletAddress.slice(0,7)} ... {walletAddress.slice(35)}
+            {walletAddress.slice(0,7)} ... {WalletAddress.slice(35)}
           </WalletAddress>
         </WalletLink>
 
