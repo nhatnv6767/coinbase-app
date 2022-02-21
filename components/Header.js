@@ -60,3 +60,13 @@ const WalletLink = styled.div`
     align-items: flex-start;
     justify-content: center;
 `
+const WalletLinkTitle = styled.div`
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    color: #27ad75;
+    font-weight: 600;
+`
+
+const WalletAddress = styled.div`
+    font-size: 0.8rem;
+`
