@@ -15,9 +15,15 @@ const Sidebar = () => {
       <NavItemsContainer>
         {navItems.map((item, index) => (
           <NavItem key={index}>
+
             <NavIcon>
               {item.icon}
             </NavIcon>
+
+            <NavTitle>
+              {item.title}
+            </NavTitle>
+
           </NavItem>
         ))}
       </NavItemsContainer>
@@ -74,3 +80,4 @@ const NavIcon = styled.div`
     display: grid;
     place-items: center;
 `
+const NavTitle = styled.div``
